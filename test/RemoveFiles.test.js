@@ -1,4 +1,5 @@
 "use strict";
+process.stdout.write(__filename + "\n");
 
 /* globals describe it */
 const path = require("path");

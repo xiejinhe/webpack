@@ -1,6 +1,6 @@
 /* globals describe, it */
 "use strict";
-
+process.stdout.write(__filename + "\n");
 const webpack = require("..");
 
 describe("Validation", () => {

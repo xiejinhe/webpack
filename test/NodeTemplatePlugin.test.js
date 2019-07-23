@@ -1,5 +1,6 @@
 /* global describe, it */
 "use strict";
+process.stdout.write(__filename + "\n");
 
 const path = require("path");
 const webpack = require("../lib/webpack");

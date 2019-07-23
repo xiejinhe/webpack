@@ -1,4 +1,5 @@
 "use strict";
+process.stdout.write(__filename + "\n");
 
 const _ = require("lodash");
 const path = require("path");
