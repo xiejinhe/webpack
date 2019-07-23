@@ -177,7 +177,7 @@ describe("HotTestCases", () => {
 								done();
 							});
 						},
-						10000
+						20000
 					);
 
 					const { it: _it, getNumberOfTests } = createLazyTestEnv(
